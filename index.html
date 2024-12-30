@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="/public/img/education.png" type="image/x-icon">
+
+    <!--=============== Font Awesome ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="/public/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="/public/css/style.css">
+    <title>Online shop</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="infor__header">
+            <h3 class="information">Sign up and get 20% off to your first order. <a href="#" class="signup">Sign Up
+                    Now</a></h3>
+        </div>
+
+        <nav class="nav container">
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <a href="#" class="nav__logo">
+                <h3>SHOP.CO</h3>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link active-link">Shop</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="onsale.html" class="nav__link">On Sale</a>
+                    </li>
+                    <!-- <li class="nav__item">
+                        <a href="new.html" class="nav__link">New Arrivals</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="brands.html" class="nav__link">Brands</a>
+                    </li> -->
+                </ul>
+                <!-- Close button -->
+                <div class="nav__close" id="nav-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+
+            <div class="nav__button">
+                <div class="nav__search" id="nav-search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <div class="nav__shop" id="nav-shop">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+
+                <div class="nav__profile" id="nav-profile">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="search" id="search-content">
+        <form action="" class="search__form">
+            <i class="fa-solid fa-magnifying-glass search__icon"></i>
+            <input type="search" class="search__input" placeholder="What are you looking for?">
+        </form>
+        <i class="fa-solid fa-xmark search__close" id="search-close"></i>
+    </div>
+
+    <div class="shop" id="shop-content">
+        <h3 class="title__card">This is your product.</h3>
+        <br>
+        <div class="product__card">
+            <article class="product">
+                <div class="images__card">
+                    <img src="/public/img/education.png" alt="image" class="shop__img">
+                </div>
+
+                <div class="product__infor_card">
+                    <h2>Harry poter</h2>
+                    <input type="number" name="qty" class="qty" id="qty" value="1">
+                    <h4 class="price">
+                        10 <span>$</span>
+                    </h4>
+                    <div class="trash">
+                        <i class="fa-solid fa-trash"></i>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <i class="fa-solid fa-xmark shop__close" id="shop-close"></i>
+    </div>
+
+    <div class="user_infor" id="user-infor">
+        <div class="user__profile__img">
+            <img src="public/img/education.png" alt="image" class="user__img">
+        </div>
+
+        <div class="user__content">
+            <div class="user__data">
+                <h3 class="name">Duong Namfa</h3>
+                <h4 class="gender">Male</h4>
+                <h3><a href="">@nam_faar</a></h3>
+            </div>
+            <div class="logout">
+                <button type="button" class="btn btn-primary">Log out</button>
+            </div>
+        </div>
+
+        <i class="fa-solid fa-xmark user__close" id="user-close"></i>
+    </div>
+
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home__data">
+                <div class="home__infor">
+                    <div class="home__container container">
+                        <div class="home__titile">
+                            <h3>FIND CLOTHES THAT MATCHES YOUR STYLE</h3>
+                        </div>
+                        <div class="home__description">
+                            <p>Browse through our diverse range of meticulously crafted garments, designed to bring out
+                                your
+                                individuality and cater to your sense of style.</p>
+                        </div>
+                        <div class="home__btn">
+                            <button type="submit" class="shop__now">
+                                Shop Now
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="home__content">
+                        <article class="home__brands">
+                            <h3 class="home__number">200+</h3>
+                            <p class="home__paragraph">International Brands</p>
+                        </article>
+                        <article class="home__brands">
+                            <h3 class="home__number">2000+</h3>
+                            <p class="home__paragraph">Hight-Quality Products</p>
+                        </article>
+                        <article class="home__brands">
+                            <h3 class="home__number">30,000+</h3>
+                            <p class="home__paragraph">Happy Customers</p>
+                        </article>
+                    </div>
+                </div>
+                <div class="home__image">
+                    <img src="public/img/branding.jpg" alt="" class="home__img">
+                </div>
+            </div>
+            <div class="branding">
+                <div class="branding__content">
+                    <article class="brading__title">
+                        <h3>VERSACE</h3>
+                    </article>
+                    <article class="brading__title">
+                        <h3>ZARA</h3>
+                    </article>
+                    <article class="brading__title">
+                        <h3>GUCCI</h3>
+                    </article>
+                </div>
+
+                <div class="branding__content">
+                    <article class="brading__title">
+                        <h3>PRADA</h3>
+                    </article>
+                    <article class="brading__title">
+                        <h3>Calvin Klein</h3>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="new_arrivals" id="new-arrivals">
+            <div class="new__arrivals_container container">
+                <h3 class="new__arrivals__title">NEW ARRIVALS</h3>
+                <div class="new_arrivals_content swiper">
+                    <div class="swiper-wrapper">
+                        <article class="new__card swiper-slide">
+                            <div class="card__image">
+                                <img src="public/img/product1.png" alt="image" class="new__img">
+                            </div>
+                            <div class="new__data">
+                                <h3 class="new__title">
+                                    Garden City Assat
+                                </h3>
+                                <div class="rate">
+                                    <div class="rate__star">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="rate_num">
+                                        <h4 class="rating">4.5/<span>5</span></h4>
+                                    </div>
+                                </div>
+                                <div class="price">
+                                    <h2 class="new__price">
+                                        <span>$</span>120
+                                    </h2>
+                                    <h2 class="new_discount__price">
+                                        <span>$</span>150
+                                    </h2>
+                                    <h5 class="discount_persent">
+                                        -20%
+                                    </h5>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="new__card swiper-slide">
+                            <div class="card__image">
+                                <img src="public/img/product2.png" alt="image" class="new__img">
+                            </div>
+                            <div class="new__data">
+                                <h3 class="new__title">
+                                    Garden City Assat
+                                </h3>
+                                <div class="rate">
+                                    <div class="rate__star">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="rate_num">
+                                        <h4 class="rating">4.5/<span>5</span></h4>
+                                    </div>
+                                </div>
+                                <div class="price">
+                                    <h2 class="new__price">
+                                        <span>$</span>120
+                                    </h2>
+                                    <h2 class="new_discount__price">
+                                        <span>$</span>150
+                                    </h2>
+                                    <h5 class="discount_persent">
+                                        -20%
+                                    </h5>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="new__card swiper-slide">
+                            <div class="card__image">
+                                <img src="public/img/product1.png" alt="image" class="new__img">
+                            </div>
+                            <div class="new__data">
+                                <h3 class="new__title">
+                                    Garden City Assat
+                                </h3>
+                                <div class="rate">
+                                    <div class="rate__star">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="rate_num">
+                                        <h4 class="rating">4.5/<span>5</span></h4>
+                                    </div>
+                                </div>
+                                <div class="price">
+                                    <h2 class="new__price">
+                                        <span>$</span>120
+                                    </h2>
+                                    <h2 class="new_discount__price">
+                                        <span>$</span>150
+                                    </h2>
+                                    <h5 class="discount_persent">
+                                        -20%
+                                    </h5>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="new__card swiper-slide">
+                            <div class="card__image">
+                                <img src="public/img/product2.png" alt="image" class="new__img">
+                            </div>
+                            <div class="new__data">
+                                <h3 class="new__title">
+                                    Garden City Assat
+                                </h3>
+                                <div class="rate">
+                                    <div class="rate__star">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="rate_num">
+                                        <h4 class="rating">4.5/<span>5</span></h4>
+                                    </div>
+                                </div>
+                                <div class="price">
+                                    <h2 class="new__price">
+                                        <span>$</span>120
+                                    </h2>
+                                    <h2 class="new_discount__price">
+                                        <span>$</span>150
+                                    </h2>
+                                    <h5 class="discount_persent">
+                                        -20%
+                                    </h5>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="card__btn">
+                    <button type="submit" class="view__all">
+                        View all
+                    </button>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="top_sale" id="top-sale">
+            <div class="new__arrivals_container container">
+                <h3 class="new__arrivals__title">TOP SELLING</h3>
+                <div class="new_arrivals_content swiper">
+                    <div class="swiper-wrapper">
+                        <article class="new__card swiper-slide">
+                            <div class="card__image">
+                                <img src="public/img/product1.png" alt="image" class="new__img">
+                            </div>
+                            <div class="new__data">
+                                <h3 class="new__title">
+                                    Garden City Assat
+                                </h3>
+                                <div class="rate">
+                                    <div class="rate__star">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="rate_num">
+                                        <h4 class="rating">4.5/<span>5</span></h4>
+                                    </div>
+                                </div>
+                                <div class="price">
+                                    <h2 class="new__price">
+                                        <span>$</span>120
+                                    </h2>
+                                    <h2 class="new_discount__price">
+                                        <span>$</span>150
+                                    </h2>
+                                    <h5 class="discount_persent">
+                                        -20%
+                                    </h5>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="new__card swiper-slide">
+                            <div class="card__image">
+                                <img src="public/img/product2.png" alt="image" class="new__img">
+                            </div>
+                            <div class="new__data">
+                                <h3 class="new__title">
+                                    Garden City Assat
+                                </h3>
+                                <div class="rate">
+                                    <div class="rate__star">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="rate_num">
+                                        <h4 class="rating">4.5/<span>5</span></h4>
+                                    </div>
+                                </div>
+                                <div class="price">
+                                    <h2 class="new__price">
+                                        <span>$</span>120
+                                    </h2>
+                                    <h2 class="new_discount__price">
+                                        <span>$</span>150
+                                    </h2>
+                                    <h5 class="discount_persent">
+                                        -20%
+                                    </h5>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="new__card swiper-slide">
+                            <div class="card__image">
+                                <img src="public/img/product1.png" alt="image" class="new__img">
+                            </div>
+                            <div class="new__data">
+                                <h3 class="new__title">
+                                    Garden City Assat
+                                </h3>
+                                <div class="rate">
+                                    <div class="rate__star">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="rate_num">
+                                        <h4 class="rating">4.5/<span>5</span></h4>
+                                    </div>
+                                </div>
+                                <div class="price">
+                                    <h2 class="new__price">
+                                        <span>$</span>120
+                                    </h2>
+                                    <h2 class="new_discount__price">
+                                        <span>$</span>150
+                                    </h2>
+                                    <h5 class="discount_persent">
+                                        -20%
+                                    </h5>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="new__card swiper-slide">
+                            <div class="card__image">
+                                <img src="public/img/product2.png" alt="image" class="new__img">
+                            </div>
+                            <div class="new__data">
+                                <h3 class="new__title">
+                                    Garden City Assat
+                                </h3>
+                                <div class="rate">
+                                    <div class="rate__star">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="rate_num">
+                                        <h4 class="rating">4.5/<span>5</span></h4>
+                                    </div>
+                                </div>
+                                <div class="price">
+                                    <h2 class="new__price">
+                                        <span>$</span>120
+                                    </h2>
+                                    <h2 class="new_discount__price">
+                                        <span>$</span>150
+                                    </h2>
+                                    <h5 class="discount_persent">
+                                        -20%
+                                    </h5>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="card__btn">
+                    <button type="submit" class="view__all">
+                        View all
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="browse" id="browse">
+            <div class="browser__container container">
+                <h3 class="browser__title">
+                    BROWSE BY DRESS STYLE
+                </h3>
+                <div class="broswer__content">
+                    <article class="browser__card">
+                        <h4 class="card__title">Casual</h4>
+                        <div class="card__box">
+                            <img src="public/img/broser__img1.png" alt="image" class="browser__img">
+                        </div>
+                    </article>
+                    <article class="browser__card">
+                        <h4 class="card__title">Formal</h4>
+                        <div class="card__box">
+                            <img src="public/img/broser__img2.png" alt="image" class="browser__img">
+                        </div>
+                    </article>
+                    <article class="browser__card">
+                        <h4 class="card__title">Party</h4>
+                        <div class="card__box">
+                            <img src="public/img/broser__img3.png" alt="image" class="browser__img">
+                        </div>
+                    </article>
+                    <article class="browser__card">
+                        <h4 class="card__title">Gym</h4>
+                        <div class="card__box">
+                            <img src="public/img/broser__img4.png" alt="image" class="browser__img">
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="customer" id="customer">
+            <div class="customer__container container">
+                <div class="customer_infor">
+                    <h3 class="customer__title">
+                        OUR HAPPY <br> CUSTOMER
+                    </h3>
+                    <div class="customer__symbol">
+                        <i class="fa-solid fa-circle-arrow-left"></i>
+                        <i class="fa-solid fa-circle-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="customer__content swiper">
+                    <div class="swiper-wrapper">
+                        <article class="customer__rate swiper-slide">
+                            <div class="customer__star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="customer__data">
+                                <h4 class="customer__name">
+                                    Sarah M. <i class="fa-solid fa-circle-check"></i>
+                                </h4>
+                                <p class="customer__description">
+                                    "I'm blown away by the quality and style of the clothes I received from Shop.co.
+                                    From
+                                    casual wear to elegant dresses, every piece I've bought has exceeded my
+                                    expectations.”
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="customer__rate swiper-slide">
+                            <div class="customer__star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="customer__data">
+                                <h4 class="customer__name">
+                                    Sarah M. <i class="fa-solid fa-circle-check"></i>
+                                </h4>
+                                <p class="customer__description">
+                                    "I'm blown away by the quality and style of the clothes I received from Shop.co.
+                                    From
+                                    casual wear to elegant dresses, every piece I've bought has exceeded my
+                                    expectations.”
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="customer__rate swiper-slide">
+                            <div class="customer__star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="customer__data">
+                                <h4 class="customer__name">
+                                    Sarah M. <i class="fa-solid fa-circle-check"></i>
+                                </h4>
+                                <p class="customer__description">
+                                    "I'm blown away by the quality and style of the clothes I received from Shop.co.
+                                    From
+                                    casual wear to elegant dresses, every piece I've bought has exceeded my
+                                    expectations.”
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="customer__rate swiper-slide">
+                            <div class="customer__star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="customer__data">
+                                <h4 class="customer__name">
+                                    Sarah M. <i class="fa-solid fa-circle-check"></i>
+                                </h4>
+                                <p class="customer__description">
+                                    "I'm blown away by the quality and style of the clothes I received from Shop.co.
+                                    From
+                                    casual wear to elegant dresses, every piece I've bought has exceeded my
+                                    expectations.”
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="customer__rate swiper-slide">
+                            <div class="customer__star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="customer__data">
+                                <h4 class="customer__name">
+                                    Sarah M. <i class="fa-solid fa-circle-check"></i>
+                                </h4>
+                                <p class="customer__description">
+                                    "I'm blown away by the quality and style of the clothes I received from Shop.co.
+                                    From
+                                    casual wear to elegant dresses, every piece I've bought has exceeded my
+                                    expectations.”
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="customer__rate swiper-slide">
+                            <div class="customer__star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="customer__data">
+                                <h4 class="customer__name">
+                                    Sarah M. <i class="fa-solid fa-circle-check"></i>
+                                </h4>
+                                <p class="customer__description">
+                                    "I'm blown away by the quality and style of the clothes I received from Shop.co.
+                                    From
+                                    casual wear to elegant dresses, every piece I've bought has exceeded my
+                                    expectations.”
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="contect" id="contect">
+            <div class="contect__container container">
+                <div class="contect__data">
+                    <h2 class="contect__title">
+                        STAY UPTO DATE <br>
+                        ABOUT OUR<br>
+                        LASTEST OFFERS
+                    </h2>
+
+                    <form action="">
+                        <div class="contect_text">
+                            <i class="fa-regular fa-envelope"></i>
+                            <input type="text" name="infor" id="infor" class="infor"
+                                placeholder="Enter your email address">
+                        </div>
+                        <button class="contect__btn">Subscribe to Newsletter</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="">
+                <a href="#" class="footer__logo">
+                    SHOP.CO
+                </a>
+                <p class="footer__description">
+                    We have clothes that suits your style and which your're
+                    proud to wear. From women to men.
+                </p>
+            </div>
+            <div class="footer__icons">
+                <div class="footer__box">
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+
+                <div class="footer__box">
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+
+                <div class="footer__box">
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+
+                <div class="footer__box">
+                    <i class="fa-brands fa-telegram"></i>
+                </div>
+            </div>
+            <div class="footer__content">
+                <div class="">
+                    <h3 class="footer__title">
+                        COMPANY
+                    </h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">About</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Features</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Works</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Career</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="">
+                    <h3 class="footer__title">
+                        HELP
+                    </h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Customer Support</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Delivery Details</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Terms & Policy</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="">
+                    <h3 class="footer__title">
+                        FAQ
+                    </h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Account</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Manage Deliveries</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Orders</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Payment</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="">
+                    <h3 class="footer__title">
+                        RESOURCES
+                    </h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Free eBook</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Development Tutorial</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">How to-Blog</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Youtube Playlist</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer__info container">
+            <h3 class="footer__copy">
+                &#169; namfaduong. Finish what you start
+            </h3>
+            <div class="footer__privacy">
+                <img src="public/img/visa.png" alt="">
+                <img src="public/img/pay.png" alt="">
+                <img src="public/img/paypal.png" alt="">
+                <img src="public/img/applepay.png" alt="">
+                <img src="public/img/googlepay.png" alt="">
+            </div>
+        </div>
+    </footer>
+
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-chevron-up'></i>
+    </a>
+
+    <script src="/public/js/swiper-bundle.min.js"></script>
+    <!--=============== MAIN JS ===============-->
+    <script src="/public/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="/public/img/education.png" type="image/x-icon">
+
+    <!--=============== Font Awesome ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="/public/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="/public/css/style.css">
+    <title>Online shop</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="infor__header">
+            <h3 class="information">Sign up and get 20% off to your first order. <a href="#" class="signup">Sign Up
+                    Now</a></h3>
+        </div>
+
+        <nav class="nav container">
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <a href="#" class="nav__logo">
+                <h3>SHOP.CO</h3>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Shop</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="onsale.html" class="nav__link active-link">On Sale</a>
+                    </li>
+                    <!-- <li class="nav__item">
+                        <a href="new.html" class="nav__link">New Arrivals</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="brands.html" class="nav__link">Brands</a>
+                    </li> -->
+                </ul>
+                <!-- Close button -->
+                <div class="nav__close" id="nav-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+
+            <div class="nav__button">
+                <div class="nav__search" id="nav-search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <div class="nav__shop" id="nav-shop">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+
+                <div class="nav__profile" id="nav-profile">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="search" id="search-content">
+        <form action="" class="search__form">
+            <i class="fa-solid fa-magnifying-glass search__icon"></i>
+            <input type="search" class="search__input" placeholder="What are you looking for?">
+        </form>
+        <i class="fa-solid fa-xmark search__close" id="search-close"></i>
+    </div>
+
+    <div class="shop" id="shop-content">
+        <h3 class="title__card">This is your product.</h3>
+        <br>
+        <div class="product__card">
+            <article class="product">
+                <div class="images__card">
+                    <img src="/public/img/education.png" alt="image" class="shop__img">
+                </div>
+
+                <div class="product__infor_card">
+                    <h2>Harry poter</h2>
+                    <input type="number" name="qty" class="qty" id="qty" value="1">
+                    <h4 class="price">
+                        10 <span>$</span>
+                    </h4>
+                    <div class="trash">
+                        <i class="fa-solid fa-trash"></i>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <i class="fa-solid fa-xmark shop__close" id="shop-close"></i>
+    </div>
+
+    <div class="user_infor" id="user-infor">
+        <div class="user__profile__img">
+            <img src="public/img/education.png" alt="image" class="user__img">
+        </div>
+
+        <div class="user__content">
+            <div class="user__data">
+                <h3 class="name">Duong Namfa</h3>
+                <h4 class="gender">Male</h4>
+                <h3><a href="">@nam_faar</a></h3>
+            </div>
+            <div class="logout">
+                <button type="button" class="btn btn-primary">Log out</button>
+            </div>
+        </div>
+
+        <i class="fa-solid fa-xmark user__close" id="user-close"></i>
+    </div>
+
+    <main class="main">
+
+        <section class="breadcrumbs" id="breadcrumbs">
+            <div class="breadcrumbs__container container">
+                <h2 class="breadcrumbs__title">Home > Casual</h2>
+            </div>
+        </section>
+
+        <section class="casual">
+            <div class="casual__container container">
+                <div class="casual__information">
+                    <h2 class="casual__title">Casual</h2>
+                    <p class="casual__description">
+                        Showing 1-10 of 100 Products
+                    </p>
+                </div>
+
+                <div class="casual__filter" id="casual-filter">
+                    <i class="fa-solid fa-arrow-up-wide-short"></i>
+                </div>
+            </div>
+        </section>
+
+        <section class="casual__product">
+            <div class="casual__product__container container">
+                <div class="casual_infor">
+                    <article class="casual__card">
+                        <div class="casual__image">
+                            <img src="public/img/product1.jpg" alt="" class="casual__img">
+                        </div>
+                        <div class="casual__data">
+                            <h3 class="casual__card__title">Gradient Graphic Tasdfasdfasfasf</h3>
+                            <div class="casual__rate">
+                                <div class="casual_star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="casual__numer">
+                                    <h3 class="rate_num">3.5/5</h3>
+                                </div>
+                            </div>
+                            <div class="casual__price">
+                                <h4 class="sal_price">$145</h4>
+                                <h4 class="total_price">$242</h4>
+                                <h2 class="discount">-20%</h2>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="casual__card">
+                        <div class="casual__image">
+                            <img src="public/img/product1.jpg" alt="" class="casual__img">
+                        </div>
+                        <div class="casual__data">
+                            <h3 class="casual__card__title">Gradient Graphic Tasdfasdfasfasf</h3>
+                            <div class="casual__rate">
+                                <div class="casual_star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="casual__numer">
+                                    <h3 class="rate_num">3.5/5</h3>
+                                </div>
+                            </div>
+                            <div class="casual__price">
+                                <h4 class="sal_price">$145</h4>
+                                <h4 class="total_price">$242</h4>
+                                <h2 class="discount">-20%</h2>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="casual__card">
+                        <div class="casual__image">
+                            <img src="public/img/product1.jpg" alt="" class="casual__img">
+                        </div>
+                        <div class="casual__data">
+                            <h3 class="casual__card__title">Gradient Graphic Tasdfasdfasfasf</h3>
+                            <div class="casual__rate">
+                                <div class="casual_star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="casual__numer">
+                                    <h3 class="rate_num">3.5/5</h3>
+                                </div>
+                            </div>
+                            <div class="casual__price">
+                                <h4 class="sal_price">$145</h4>
+                                <h4 class="total_price">$242</h4>
+                                <h2 class="discount">-20%</h2>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="casual__card">
+                        <div class="casual__image">
+                            <img src="public/img/product1.jpg" alt="" class="casual__img">
+                        </div>
+                        <div class="casual__data">
+                            <h3 class="casual__card__title">Gradient Graphic Tasdfasdfasfasf</h3>
+                            <div class="casual__rate">
+                                <div class="casual_star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="casual__numer">
+                                    <h3 class="rate_num">3.5/5</h3>
+                                </div>
+                            </div>
+                            <div class="casual__price">
+                                <h4 class="sal_price">$145</h4>
+                                <h4 class="total_price">$242</h4>
+                                <h2 class="discount">-20%</h2>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="casual__card">
+                        <div class="casual__image">
+                            <img src="public/img/product1.jpg" alt="" class="casual__img">
+                        </div>
+                        <div class="casual__data">
+                            <h3 class="casual__card__title">Gradient Graphic Tasdfasdfasfasf</h3>
+                            <div class="casual__rate">
+                                <div class="casual_star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="casual__numer">
+                                    <h3 class="rate_num">3.5/5</h3>
+                                </div>
+                            </div>
+                            <div class="casual__price">
+                                <h4 class="sal_price">$145</h4>
+                                <h4 class="total_price">$242</h4>
+                                <h2 class="discount">-20%</h2>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+                <hr>
+                <div class="pagination">
+                    <div class="pagination__prev">
+                        <i class='bx bx-chevron-left'></i>
+                        <span>Previous</span>
+                    </div>
+                    <span class="current active-pagination">1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <h4 class="point">
+                        ...
+                    </h4>
+                    <span>9</span>
+                    <div class="pagination__prev">
+                        <span>Next</span>
+                        <i class='bx bx-chevron-right'></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="contect" id="contect">
+            <div class="contect__container container">
+                <div class="contect__data">
+                    <h2 class="contect__title">
+                        STAY UPTO DATE <br>
+                        ABOUT OUR<br>
+                        LASTEST OFFERS
+                    </h2>
+                    <form action="">
+                        <div class="contect_text">
+                            <i class="fa-regular fa-envelope"></i>
+                            <input type="text" name="infor" id="infor" class="infor"
+                                placeholder="Enter your email address">
+                        </div>
+                        <button class="contect__btn">Subscribe to Newsletter</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section class="filter__card" id="filter-infor">
+        <div class="filter__container container">
+            <div class="filter__header">
+                <h3 class="filter__title">Filters</h3>
+                <i class='bx bx-x' id="filter-close"></i>
+            </div>
+            <div class="filter__group">
+                <div class="filter">
+                    <!-- Filter Category -->
+                    <div class="filter__item">
+                        <header class="filter__header">
+                            <h3 class="filter__item-title">Categories</h3>
+                            <i class='bx bx-chevron-right filter__icon'></i>
+                        </header>
+                        <div class="filter__content">
+                            <div class="filter__description">
+                                <div class="dress_filter">
+                                    <a href="#tshirts" class="dress__item">
+                                        <h3 class="dress__item-title">T-shirts</h3>
+                                        <i class='bx bx-chevron-right dress__icon'></i>
+                                    </a>
+                                    <a href="#shorts" class="dress__item">
+                                        <h3 class="dress__item-title">Shorts</h3>
+                                        <i class='bx bx-chevron-right dress__icon'></i>
+                                    </a>
+                                    <a href="#hoodie" class="dress__item">
+                                        <h3 class="dress__item-title">Hoodie</h3>
+                                        <i class='bx bx-chevron-right dress__icon'></i>
+                                    </a>
+                                    <a href="#jeans" class="dress__item">
+                                        <h3 class="dress__item-title">Jeans</h3>
+                                        <i class='bx bx-chevron-right dress__icon'></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Filter Price -->
+                    <div class="filter__item">
+                        <header class="filter__header">
+                            <h3 class="filter__item-title">Price</h3>
+                            <i class='bx bx-chevron-right filter__icon'></i>
+                        </header>
+                        <div class="filter__content">
+                            <div class="filter__description">
+                                <div class="filter__input">
+                                    <div class="label__price">
+                                        <label for="startprice" class="startlabel">Start Price: </label>
+                                        <div class="space"></div>
+                                        <label for="endprice" class="endlabel">End Price: </label>
+                                    </div>
+
+                                    <div class="input__price">
+                                        <input type="number" name="startprice" id="startprice" class="startprice">
+                                        <div class="space"></div>
+                                        <input type="number" name="endprice" id="endprice" class="endprice">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Filter Size -->
+                    <div class="filter__item">
+                        <header class="filter__header">
+                            <h3 class="filter__item-title">Size</h3>
+                            <i class='bx bx-chevron-right filter__icon'></i>
+                        </header>
+                        <div class="filter__content">
+                            <div class="filter__description">
+                                <div class="filter__group_btn">
+                                    <button class="filter__button active-btn">XX-Small</button>
+                                    <button class="filter__button">X-Small</button>
+                                    <button class="filter__button">Small</button>
+                                    <button class="filter__button">Medium</button>
+                                    <button class="filter__button">Large</button>
+                                    <button class="filter__button">X-Large</button>
+                                    <button class="filter__button">XX-Large</button>
+                                    <button class="filter__button">3X-Large</button>
+                                    <button class="filter__button">4X-Large</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Filter Dress Style -->
+                    <div class="filter__item">
+                        <header class="filter__header">
+                            <h3 class="filter__item-title">Dress Style</h3>
+                            <i class='bx bx-chevron-right filter__icon'></i>
+                        </header>
+                        <div class="filter__content">
+                            <div class="filter__description">
+                                <div class="dress_filter">
+                                    <a href="#casual" class="dress__item">
+                                        <h3 class="dress__item-title">Casual</h3>
+                                        <i class='bx bx-chevron-right dress__icon'></i>
+                                    </a>
+                                    <a href="#casual" class="dress__item">
+                                        <h3 class="dress__item-title">Formal</h3>
+                                        <i class='bx bx-chevron-right dress__icon'></i>
+                                    </a>
+                                    <a href="#casual" class="dress__item">
+                                        <h3 class="dress__item-title">Party</h3>
+                                        <i class='bx bx-chevron-right dress__icon'></i>
+                                    </a>
+                                    <a href="#casual" class="dress__item">
+                                        <h3 class="dress__item-title">Gym</h3>
+                                        <i class='bx bx-chevron-right dress__icon'></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="filter__footer">
+                    <button class="btn__apply">Apply Filter</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="">
+                <a href="#" class="footer__logo">
+                    SHOP.CO
+                </a>
+                <p class="footer__description">
+                    We have clothes that suits your style and which your're
+                    proud to wear. From women to men.
+                </p>
+            </div>
+            <div class="footer__icons">
+                <div class="footer__box">
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+
+                <div class="footer__box">
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+
+                <div class="footer__box">
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+
+                <div class="footer__box">
+                    <i class="fa-brands fa-telegram"></i>
+                </div>
+            </div>
+            <div class="footer__content">
+                <div class="">
+                    <h3 class="footer__title">
+                        COMPANY
+                    </h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">About</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Features</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Works</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Career</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="">
+                    <h3 class="footer__title">
+                        HELP
+                    </h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Customer Support</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Delivery Details</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Terms & Policy</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="">
+                    <h3 class="footer__title">
+                        FAQ
+                    </h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Account</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Manage Deliveries</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Orders</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Payment</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="">
+                    <h3 class="footer__title">
+                        RESOURCES
+                    </h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Free eBook</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Development Tutorial</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">How to-Blog</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Youtube Playlist</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer__info container">
+            <h3 class="footer__copy">
+                &#169; namfaduong. Finish what you start
+            </h3>
+            <div class="footer__privacy">
+                <img src="public/img/visa.png" alt="">
+                <img src="public/img/pay.png" alt="">
+                <img src="public/img/paypal.png" alt="">
+                <img src="public/img/applepay.png" alt="">
+                <img src="public/img/googlepay.png" alt="">
+            </div>
+        </div>
+    </footer>
+
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-chevron-up'></i>
+    </a>
+
+    <script src="/public/js/swiper-bundle.min.js"></script>
+    <!--=============== MAIN JS ===============-->
+    <script src="/public/js/main.js"></script>
+</body>
+
+</html>
